@@ -1,4 +1,4 @@
-package test.ch8;
+package test.ch10;
 
 class Quadrangle {
     public static void draw(Quadrangle q) {
