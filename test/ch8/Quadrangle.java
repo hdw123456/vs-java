@@ -5,5 +5,5 @@ class Quadrangle{
     }
 }
 class Square extends Quadrangle{
-    
+    // ABC
 }
