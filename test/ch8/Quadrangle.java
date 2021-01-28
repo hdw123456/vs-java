@@ -1,9 +1,11 @@
 package test.ch8;
-class Quadrangle{
+
+class Quadrangle {
     public static void draw(Quadrangle q) {
-        
+
     }
 }
-class Square extends Quadrangle{
+
+class Square extends Quadrangle {
     // ABC
 }
