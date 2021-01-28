@@ -23,5 +23,8 @@ public class QuadrangleUseInterface {
         for (drawTest drawTest : d) {
             drawTest.draw();
         }
+        System.out.println(OverLoadTeat.add(2, 3.1));
+        printabc x = new printabc();
+        x.draw();
     }
 }

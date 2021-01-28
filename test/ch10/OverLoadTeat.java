@@ -29,5 +29,7 @@ public class OverLoadTeat {
         System.out.println(add(3.4, 2));
         System.out.println(add(5, 2.7));
         System.out.println(add(10, 20, 30, 40, 80));
+        ParallelogramgleUseInterface p=new ParallelogramgleUseInterface();
+        p.draw();
     }
 }
