@@ -4,7 +4,7 @@ import java.io.File;
 
 public class FileTest {
     public static void main(String[] args) {
-        File file = new File("D:/dev/vs-java/test/ch15/","word.txt");
+        File file = new File("D:/dev/vs-java/test/ch15/", "word.txt");
         if (file.exists()) {
             String name = file.getName();
             long len = file.length();
