@@ -11,7 +11,8 @@ public class InClassPractice {
     }
     public static void main(String[] args) {
         InClassPractice out1 = new InClassPractice();
-        InClass in = out1.doit();
-        InClass in2 = new InClass();
+        out1.doit();
+        new InClass();
+        
     }
 }

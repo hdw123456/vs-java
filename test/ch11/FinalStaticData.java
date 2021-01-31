@@ -6,7 +6,7 @@ import static java.lang.System.out;
 public class FinalStaticData {
     private static Random rand = new Random();
     private final int a1 = rand.nextInt(10);
-    private final static int a2 = rand.nextInt(10);
+    private final int a2 = rand.nextInt(10);
 
     public static void main(String[] args) {
         FinalStaticData fData = new FinalStaticData();

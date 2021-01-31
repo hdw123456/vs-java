@@ -6,9 +6,10 @@ public class OutputClass extends ClassA {
     }
 
     public static void main(String[] args) {
-        ClassA a = new ClassA();
+        //ClassA a = new ClassA();
         OutputClass out = new OutputClass();
-        ClassB b = out.new ClassB();
+        System.out.println(out);
+        //ClassB b = out.new ClassB();
     }
 }
 

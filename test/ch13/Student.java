@@ -17,6 +17,7 @@ public class Student {
         Iterator<String> it2 = coll.iterator();
         while (it.hasNext()) {
             System.out.println(it.next());
+            System.out.println(it2.next());
         }
         for (String string : coll) {
             System.out.println(string);

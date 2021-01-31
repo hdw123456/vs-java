@@ -15,6 +15,7 @@ public class Parrallelogram extends Quadrangle {
         Quadrangle q = new Quadrangle();
         if (q instanceof Parrallelogram) {
             Parrallelogram p = (Parrallelogram) q;
+            System.out.println(p);
         }
     }
 }

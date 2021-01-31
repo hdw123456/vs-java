@@ -1,8 +1,7 @@
 package test.ch13;
 
-import java.util.Iterator;
-import java.util.Set;
-import java.util.TreeSet;
+//import java.util.Iterator;
+//import java.util.TreeSet;
 
 public class UpdateSu implements Comparable<Object> {
     String name;
@@ -36,6 +35,6 @@ public class UpdateSu implements Comparable<Object> {
     }
 
     public static void main(String[] args) {
-        TreeSet<UpdateSu>tree = new TreeSet<>();
+        //TreeSet<UpdateSu>tree = new TreeSet<>();
     }
 }
